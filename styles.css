@@ -1,0 +1,155 @@
+* {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  width: auto;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+h3 {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: normal;
+}
+
+section {
+  padding-left: 14vw;
+  padding-right: 14vw;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+header {
+  padding-left: 14vw;
+  padding-right: 14vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+  height: 3rem;
+}
+
+.header-link {
+  font-size: 18px;
+  font-weight: normal;
+  color: #e5e7eb;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  position: absolute;
+  left: 15vw;
+}
+
+.hero-main {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-right: 5rem;
+}
+
+.sign-up {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: bold;
+  background-color: #3882f6;
+  border: none;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-img {
+  height: 228px;
+  width: 100%;
+  text-align: center;
+  line-height: 228px;
+  font-size: 18px;
+  color: #e5e7eb;
+  background-color: rgb(150, 150, 150);
+}
+
+.info {
+  text-align: center;
+  color: #1f2937;
+  padding-top: 1rem;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.info-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
+.info-card {
+  width: 100%;
+}
+
+.info-img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+}
+
+.info-text {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote p {
+  padding-left: 9vw;
+  padding-right: 9vw;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote h4 {
+  padding-left: 9vw;
+  padding-right: 9vw;
+  text-align: end;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+}
