@@ -153,3 +153,30 @@ header {
   font-weight: 900;
   font-style: normal;
 }
+
+.call-container {
+  background-color: #3882f6;
+  border-radius: 6px;
+  padding: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  width: 100%;
+  height: 2rem;
+  flex-wrap: wrap;
+}
+
+.call-container h4 {
+  color: #e5e7eb;
+  font-size: 20px;
+}
+
+.call-container p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.call-container .sign-up {
+  border-width: 2px;
+  border: 2px solid #e5e7eb;
+  float: right;
+}
